@@ -1,0 +1,30 @@
+.btn-custom-1 {
+  background-color: $two-color;
+  color: white;
+  border-radius: 0;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  padding: 17px 50px;
+  width: fit-content;
+  transition: 0.2s;
+  i {
+    padding-left: 25px;
+    font-size: 14px;
+  }
+  &:hover {
+    background-color: #202448;
+    border: none;
+  }
+}
+.btn-custom-2 {
+  @extend .btn-custom-1;
+  background-color: white;
+  color: $two-color;
+
+  border: 1px solid white;
+  &:hover {
+    background-color: unset;
+    border: 1px solid white;
+  }
+}

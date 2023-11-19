@@ -1,0 +1,10 @@
+div.car-brand {
+  column-gap: 1.5rem !important;
+  align-items: center !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  margin-top: 40px;
+  img {
+    max-width: 270px;
+  }
+}

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "syne-regular";
+  src: url("../fonts/Syne-Regular.woff"), url("../fonts/Syne-Regular.woff2");
+}
+@font-face {
+  font-family: "syne-medium";
+  src: url("../fonts/Syne-Regular.woff"), url("../fonts/Syne-Medium.woff2");
+}
+@font-face {
+  font-family: "syne-bold";
+  src: url("../fonts/Syne-Bold.woff"), url("../fonts/Syne-Bold.woff2");
+}
+
+@font-face {
+  font-family: "syne-semi-bold";
+  src: url("../fonts/Syne-SemiBold.woff"), url("../fonts/Syne-SemiBold.woff2");
+}
+@font-face {
+  font-family: "syne-extra-bold";
+  src: url("../fonts/Syne-ExtraBold.woff"), url("../fonts/Syne-ExtraBold.woff2");
+}
+
+* {
+  font-family: "syne-semi-bold";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "syne-bold";
+}
+h1 {
+  font-size: 45px;
+}

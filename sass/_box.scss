@@ -1,0 +1,16 @@
+.box-custom {
+  background-color: $three-color;
+
+  div.container {
+    position: relative;
+    top: -15px;
+    padding-bottom: 30px;
+    .col div {
+      background-color: white;
+      padding: 30px;
+      p:last-child {
+        font-size: 45px;
+      }
+    }
+  }
+}

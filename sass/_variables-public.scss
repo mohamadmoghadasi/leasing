@@ -1,0 +1,29 @@
+$one-color: white;
+$two-color: #16182d;
+$three-color: #f4f4f4;
+$btn-color: #16182d;
+$btn-hover-color: #202448;
+
+// bootstrap edit varible custom
+$navbar-padding-y: 0;
+$btn-border-radius: 0;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+$container-max-widths: (
+  sm: 560px,
+  md: 750px,
+  lg: 990px,
+  xl: 1200px,
+  xxl: 1380px,
+);
+$card-border-width: 0;
+ul {
+  list-style-type: none;
+  padding-left: 0 !important;
+}

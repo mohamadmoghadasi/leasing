@@ -1,0 +1,17 @@
+{
+  "name": "3.leasing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass/main.scss style/style.css"
+  },
+  "keywords": [],
+  "author": "mohamad",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1"
+  }
+}

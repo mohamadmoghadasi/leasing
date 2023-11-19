@@ -1,0 +1,23 @@
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  nav.navbar {
+    background-color: white;
+    li.dropdown {
+      position: unset;
+      &:hover div.dropdown-menu {
+        display: block !important;
+        width: 100%;
+        left: 0;
+      }
+      i {
+        font-size: 14px;
+        margin: 0px 0px 0px 2px;
+      }
+    }
+    .logo {
+      width: 85%;
+    }
+  }
+}

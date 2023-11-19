@@ -1,0 +1,16 @@
+div.brand {
+  img {
+    max-width: 150px;
+  }
+  .col div {
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+    &:hover {
+      background-color: rgb(241, 241, 241);
+    }
+  }
+  img {
+    padding: 20px;
+  }
+}
